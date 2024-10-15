@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(to bottom, #f7d3ee, #edafc8);
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.media-container {
+    width: 60%;
+    margin: 80px auto;
+    border-radius: 20px;
+}
+
+.media-container iframe {
+    border-radius: 20px;
+    border: 5px solid black;
+    box-shadow: 0 0 40px 20px black;
+}
+
+.YoutubeTitle {
+    color: red;
+    text-align: center;
+}
+
+.inform {
+    text-align: right;
+}
+
+.media {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .media-container {
+        width: 90%;
+        margin: 40px auto;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+
+
